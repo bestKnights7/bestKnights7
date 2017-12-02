@@ -91,7 +91,7 @@
 <meta property="og:site_name" content="Shi Knight">
 <meta property="og:description" content="java基础回顾1.什么是面向对象？你是如何理解面向对象的？面向对象的特征有哪些？ 面向对象就是一种软件分析开发的思想，通过封装，继承，抽象，和多态来构建一个对象模型，这些模型有着自己独立的属性和行为（方法)，向外开放一个调用的方法，java语言就是一个面向对象的语言，我们通过不同的对象来解决不同的问题,提高了代码的复用性，将程序员从执行者转换为指挥者。面向对象的开发过程就是不断的创建对象，使用对">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2017-12-01T14:11:27.067Z">
+<meta property="og:updated_time" content="2017-12-02T12:19:26.500Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="java基础回顾">
 <meta name="twitter:description" content="java基础回顾1.什么是面向对象？你是如何理解面向对象的？面向对象的特征有哪些？ 面向对象就是一种软件分析开发的思想，通过封装，继承，抽象，和多态来构建一个对象模型，这些模型有着自己独立的属性和行为（方法)，向外开放一个调用的方法，java语言就是一个面向对象的语言，我们通过不同的对象来解决不同的问题,提高了代码的复用性，将程序员从执行者转换为指挥者。面向对象的开发过程就是不断的创建对象，使用对">
@@ -368,13 +368,27 @@
 
       
         <h1 id="java基础回顾"><a href="#java基础回顾" class="headerlink" title="java基础回顾"></a>java基础回顾</h1><h2 id="1-什么是面向对象？你是如何理解面向对象的？面向对象的特征有哪些？"><a href="#1-什么是面向对象？你是如何理解面向对象的？面向对象的特征有哪些？" class="headerlink" title="1.什么是面向对象？你是如何理解面向对象的？面向对象的特征有哪些？"></a>1.什么是面向对象？你是如何理解面向对象的？面向对象的特征有哪些？</h2><ul>
-<li>面向对象就是一种软件分析开发的思想，通过封装，继承，抽象，和多态来构建一个对象模型，<br>这些模型有着自己独立的属性和行为（方法)，向外开放一个调用的方法，java语言就是一个面向<br>对象的语言，我们通过不同的对象来解决不同的问题,提高了代码的复用性，将程序员从执行者转换为指挥者。面向对象的开发过程就是不断的创建对象，使用对象，指挥对象和维护对象与对象之间的关系。<a id="more"></a></li>
+<li>面向对象就是一种软件分析开发的思想，通过封装，继承，抽象，和多态来构建一个对象模型，这些模型有着自己独立的属性和行为（方法)，向外开放一个调用的方法，java语言就是一个面向对象的语言，我们通过不同的对象来解决不同的问题,提高了代码的复用性，将程序员从执行者转换为指挥者。面向对象的开发过程就是不断的创建对象，使用对象，指挥对象和维护对象与对象之间的关系。<a id="more"></a></li>
 <li>面向对象的特征有封装，继承和多态.  <ol>
-<li>封装<br> 封装就是将对象的属性隐藏起来，仅提供对外的访问方式，<br> 封装的好处是：安全性 复用性<br> 封装的原则：将不需要提供的都隐藏，将属性隐藏提供对外的访问方式。<br> 在java中提供对类的成员设置了一定的访问权限，实现类中成员属性的隐藏。  <pre><code>private：表示私有的，只能被该类来使用。  
-defalut：默认的表示只能被同包下的类使用  
-protect：表示只能被该类和该类的子类所使用保护同包下的子类，不同包的子类  
-public： 表示所有的类都能使用
-</code></pre></li>
+<li>封装  <ul>
+<li>封装就是将对象的属性隐藏起来，仅提供对外的访问方式，  </li>
+<li>封装的好处是：安全性 复用性  </li>
+<li>封装的原则：将不需要提供的都隐藏，将属性隐藏提供对外的访问方式。  </li>
+<li>在java中提供对类的成员设置了一定的访问权限，实现类中成员属性的隐藏。<br>  private：表示私有的，只能被该类来使用。<br>  defalut：默认的表示只能被同包下的类使用<br>  protect：表示只能被该类和该类的子类所使用保护同包下的子类，不同包的子类<br>  public： 表示所有的类都能使用<ol>
+<li>继承  </li>
+</ol>
+<ul>
+<li>继承是一种联结类的层次模型，允许和鼓励类的重用，它提供了一种明确表述共性的方法。对象的一个新类可以从现有的类中派生，这个过程称为类继承。新类继承了原始类的特性，新类称为原始类的派生类（子类），而原始类称为新类的基类（父类）。派生类可以从它的基类那里继承方法和实例变量，并且类可以修改或增加新的方法使之更适合特殊的需要。子类可以直接访问父类中的非私有的属性和行为。通过 extends 关键字让类与类之间产生继承关系。</li>
+</ul>
+<ol>
+<li>多态</li>
+</ol>
+<ul>
+<li>多态的前提是要有继承关系，子类重写父类中的方法，父类引用指向子类对象；编译看左边运行看右边</li>
+</ul>
+</li>
+</ul>
+</li>
 </ol>
 </li>
 </ul>
@@ -419,6 +433,10 @@ public： 表示所有的类都能使用
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/12/02/java集合/" rel="prev" title="java集合">
+                java集合 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -505,7 +523,7 @@ public： 表示所有的类都能使用
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -527,7 +545,7 @@ public： 表示所有的类都能使用
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
